@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACEA327918AB530D0076BAC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA327818AB530D0076BAC9 /* Foundation.framework */; };
+		ACEA327B18AB530D0076BAC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA327A18AB530D0076BAC9 /* CoreGraphics.framework */; };
+		ACEA327D18AB530D0076BAC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA327C18AB530D0076BAC9 /* UIKit.framework */; };
+		ACEA328318AB530E0076BAC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACEA328118AB530E0076BAC9 /* InfoPlist.strings */; };
+		ACEA328518AB530E0076BAC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEA328418AB530E0076BAC9 /* main.m */; };
+		ACEA328918AB530E0076BAC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEA328818AB530E0076BAC9 /* AppDelegate.m */; };
+		ACEA328C18AB530E0076BAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEA328A18AB530E0076BAC9 /* Main.storyboard */; };
+		ACEA328F18AB530E0076BAC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEA328E18AB530E0076BAC9 /* ViewController.m */; };
+		ACEA329118AB530E0076BAC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEA329018AB530E0076BAC9 /* Images.xcassets */; };
+		ACEA329818AB530E0076BAC9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA329718AB530E0076BAC9 /* XCTest.framework */; };
+		ACEA329918AB530E0076BAC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA327818AB530D0076BAC9 /* Foundation.framework */; };
+		ACEA329A18AB530E0076BAC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA327C18AB530D0076BAC9 /* UIKit.framework */; };
+		ACEA32A218AB530E0076BAC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACEA32A018AB530E0076BAC9 /* InfoPlist.strings */; };
+		ACEA32A418AB530E0076BAC9 /* DuckGeniusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEA32A318AB530E0076BAC9 /* DuckGeniusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACEA329B18AB530E0076BAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEA326D18AB530D0076BAC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEA327418AB530D0076BAC9;
+			remoteInfo = DuckGenius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACEA327518AB530D0076BAC9 /* DuckGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEA327818AB530D0076BAC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACEA327A18AB530D0076BAC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACEA327C18AB530D0076BAC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACEA328018AB530E0076BAC9 /* DuckGenius-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuckGenius-Info.plist"; sourceTree = "<group>"; };
+		ACEA328218AB530E0076BAC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACEA328418AB530E0076BAC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACEA328618AB530E0076BAC9 /* DuckGenius-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DuckGenius-Prefix.pch"; sourceTree = "<group>"; };
+		ACEA328718AB530E0076BAC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACEA328818AB530E0076BAC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACEA328B18AB530E0076BAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACEA328D18AB530E0076BAC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACEA328E18AB530E0076BAC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACEA329018AB530E0076BAC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACEA329618AB530E0076BAC9 /* DuckGeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuckGeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEA329718AB530E0076BAC9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ACEA329F18AB530E0076BAC9 /* DuckGeniusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuckGeniusTests-Info.plist"; sourceTree = "<group>"; };
+		ACEA32A118AB530E0076BAC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACEA32A318AB530E0076BAC9 /* DuckGeniusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckGeniusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEA327218AB530D0076BAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEA327B18AB530D0076BAC9 /* CoreGraphics.framework in Frameworks */,
+				ACEA327D18AB530D0076BAC9 /* UIKit.framework in Frameworks */,
+				ACEA327918AB530D0076BAC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEA329318AB530E0076BAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEA329818AB530E0076BAC9 /* XCTest.framework in Frameworks */,
+				ACEA329A18AB530E0076BAC9 /* UIKit.framework in Frameworks */,
+				ACEA329918AB530E0076BAC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEA326C18AB530D0076BAC9 = {
+			isa = PBXGroup;
+			children = (
+				ACEA327E18AB530E0076BAC9 /* DuckGenius */,
+				ACEA329D18AB530E0076BAC9 /* DuckGeniusTests */,
+				ACEA327718AB530D0076BAC9 /* Frameworks */,
+				ACEA327618AB530D0076BAC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEA327618AB530D0076BAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA327518AB530D0076BAC9 /* DuckGenius.app */,
+				ACEA329618AB530E0076BAC9 /* DuckGeniusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEA327718AB530D0076BAC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA327818AB530D0076BAC9 /* Foundation.framework */,
+				ACEA327A18AB530D0076BAC9 /* CoreGraphics.framework */,
+				ACEA327C18AB530D0076BAC9 /* UIKit.framework */,
+				ACEA329718AB530E0076BAC9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACEA327E18AB530E0076BAC9 /* DuckGenius */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA328718AB530E0076BAC9 /* AppDelegate.h */,
+				ACEA328818AB530E0076BAC9 /* AppDelegate.m */,
+				ACEA328A18AB530E0076BAC9 /* Main.storyboard */,
+				ACEA328D18AB530E0076BAC9 /* ViewController.h */,
+				ACEA328E18AB530E0076BAC9 /* ViewController.m */,
+				ACEA329018AB530E0076BAC9 /* Images.xcassets */,
+				ACEA327F18AB530E0076BAC9 /* Supporting Files */,
+			);
+			path = DuckGenius;
+			sourceTree = "<group>";
+		};
+		ACEA327F18AB530E0076BAC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA328018AB530E0076BAC9 /* DuckGenius-Info.plist */,
+				ACEA328118AB530E0076BAC9 /* InfoPlist.strings */,
+				ACEA328418AB530E0076BAC9 /* main.m */,
+				ACEA328618AB530E0076BAC9 /* DuckGenius-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACEA329D18AB530E0076BAC9 /* DuckGeniusTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA32A318AB530E0076BAC9 /* DuckGeniusTests.m */,
+				ACEA329E18AB530E0076BAC9 /* Supporting Files */,
+			);
+			path = DuckGeniusTests;
+			sourceTree = "<group>";
+		};
+		ACEA329E18AB530E0076BAC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA329F18AB530E0076BAC9 /* DuckGeniusTests-Info.plist */,
+				ACEA32A018AB530E0076BAC9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEA327418AB530D0076BAC9 /* DuckGenius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEA32A718AB530E0076BAC9 /* Build configuration list for PBXNativeTarget "DuckGenius" */;
+			buildPhases = (
+				ACEA327118AB530D0076BAC9 /* Sources */,
+				ACEA327218AB530D0076BAC9 /* Frameworks */,
+				ACEA327318AB530D0076BAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuckGenius;
+			productName = DuckGenius;
+			productReference = ACEA327518AB530D0076BAC9 /* DuckGenius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACEA329518AB530E0076BAC9 /* DuckGeniusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEA32AA18AB530E0076BAC9 /* Build configuration list for PBXNativeTarget "DuckGeniusTests" */;
+			buildPhases = (
+				ACEA329218AB530E0076BAC9 /* Sources */,
+				ACEA329318AB530E0076BAC9 /* Frameworks */,
+				ACEA329418AB530E0076BAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEA329C18AB530E0076BAC9 /* PBXTargetDependency */,
+			);
+			name = DuckGeniusTests;
+			productName = DuckGeniusTests;
+			productReference = ACEA329618AB530E0076BAC9 /* DuckGeniusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEA326D18AB530D0076BAC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Spencer Kamchee";
+				TargetAttributes = {
+					ACEA329518AB530E0076BAC9 = {
+						TestTargetID = ACEA327418AB530D0076BAC9;
+					};
+				};
+			};
+			buildConfigurationList = ACEA327018AB530D0076BAC9 /* Build configuration list for PBXProject "DuckGenius" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACEA326C18AB530D0076BAC9;
+			productRefGroup = ACEA327618AB530D0076BAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEA327418AB530D0076BAC9 /* DuckGenius */,
+				ACEA329518AB530E0076BAC9 /* DuckGeniusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEA327318AB530D0076BAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEA329118AB530E0076BAC9 /* Images.xcassets in Resources */,
+				ACEA328318AB530E0076BAC9 /* InfoPlist.strings in Resources */,
+				ACEA328C18AB530E0076BAC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEA329418AB530E0076BAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEA32A218AB530E0076BAC9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEA327118AB530D0076BAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEA328F18AB530E0076BAC9 /* ViewController.m in Sources */,
+				ACEA328918AB530E0076BAC9 /* AppDelegate.m in Sources */,
+				ACEA328518AB530E0076BAC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEA329218AB530E0076BAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEA32A418AB530E0076BAC9 /* DuckGeniusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACEA329C18AB530E0076BAC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEA327418AB530D0076BAC9 /* DuckGenius */;
+			targetProxy = ACEA329B18AB530E0076BAC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACEA328118AB530E0076BAC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEA328218AB530E0076BAC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACEA328A18AB530E0076BAC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEA328B18AB530E0076BAC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACEA32A018AB530E0076BAC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEA32A118AB530E0076BAC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACEA32A518AB530E0076BAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACEA32A618AB530E0076BAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACEA32A818AB530E0076BAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuckGenius/DuckGenius-Prefix.pch";
+				INFOPLIST_FILE = "DuckGenius/DuckGenius-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACEA32A918AB530E0076BAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuckGenius/DuckGenius-Prefix.pch";
+				INFOPLIST_FILE = "DuckGenius/DuckGenius-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACEA32AB18AB530E0076BAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DuckGenius.app/DuckGenius";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuckGenius/DuckGenius-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DuckGeniusTests/DuckGeniusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ACEA32AC18AB530E0076BAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DuckGenius.app/DuckGenius";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuckGenius/DuckGenius-Prefix.pch";
+				INFOPLIST_FILE = "DuckGeniusTests/DuckGeniusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEA327018AB530D0076BAC9 /* Build configuration list for PBXProject "DuckGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEA32A518AB530E0076BAC9 /* Debug */,
+				ACEA32A618AB530E0076BAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEA32A718AB530E0076BAC9 /* Build configuration list for PBXNativeTarget "DuckGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEA32A818AB530E0076BAC9 /* Debug */,
+				ACEA32A918AB530E0076BAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACEA32AA18AB530E0076BAC9 /* Build configuration list for PBXNativeTarget "DuckGeniusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEA32AB18AB530E0076BAC9 /* Debug */,
+				ACEA32AC18AB530E0076BAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEA326D18AB530D0076BAC9 /* Project object */;
+}
